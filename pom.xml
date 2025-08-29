@@ -42,11 +42,13 @@
 
     <build>
         <plugins>
+            <!-- Plugin de Spring Boot -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
 
+            <!-- Plugin de JaCoCo (cobertura de pruebas) -->
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
@@ -65,6 +67,17 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <!-- Aquí va la clase con @SpringBootApplication -->
+                    <mainClass>edu.dosw.lab.Application</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
