@@ -47,6 +47,17 @@
 - El sistema debe tener configurados los **códigos de bancos válidos**.
 - El cliente debe estar **registrado en el sistema** antes de crear una cuenta.
 - La infraestructura necesaria debe estar disponible:
- 
 
+# Reto 2: Diseñando
+- DIAGRAMA DE CASOS DE USO
+![alt text](docs/imagenes/casos_de_uso.jpg)
+
+- EXCEL
+  ![alt text](docs/imagenes/excel.jpg)
+
+- DIAGRAMA DE CONTEXTO
+  ![alt text](docs/imagenes/contaxto.jpg)
+
+- DIAGRAMA DE CLASES
+  ![alt text](docs/imagenes/clases.jpg)
 
