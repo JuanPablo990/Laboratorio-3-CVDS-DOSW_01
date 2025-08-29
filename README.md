@@ -10,8 +10,4 @@
 **Nombre de la rama :**
 `feature/lab3_Nieto_Albarracin_Selma_2025-2'
 
-### Ejecusion del maven
 
-![alt text](image.png)
-
-![alt text](image-1.png)
