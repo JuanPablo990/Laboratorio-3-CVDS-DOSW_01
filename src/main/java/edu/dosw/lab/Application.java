@@ -1,7 +1,7 @@
 package edu.dosw.lab;
 
-import Reto3.Reto3;
-import edu.dosw.lab.Reto4.Reto4;
+import edu.dosw.lab.agilismo.Reto3.Reto3;
+import edu.dosw.lab.testing.Reto4.Reto4;
 
 public class Application {
     public static void main(String[] args) {

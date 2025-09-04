@@ -1,4 +1,4 @@
-package edu.dosw.lab.Reto4;
+package edu.dosw.lab.testing.Reto4;
 
 public class ValidarCuenta {
     public ValidarCuenta() {}

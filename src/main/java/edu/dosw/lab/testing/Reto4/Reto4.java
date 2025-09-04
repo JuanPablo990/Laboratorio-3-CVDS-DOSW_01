@@ -1,4 +1,4 @@
-package edu.dosw.lab.Reto4;
+package edu.dosw.lab.testing.Reto4;
 
 public class Reto4 {
     public static void ejecutar() {
