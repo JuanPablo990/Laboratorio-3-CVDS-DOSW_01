@@ -39,9 +39,9 @@
     - Generar trazabilidad del movimiento.
 
 ## Actores Principales
-- **Cliente**: Persona que posee una cuenta bancaria y realiza operaciones (consultar saldo, depositar).
-- **Sistema Bankify**: Aplicación que valida, administra y procesa las operaciones financieras.
-- **Administrador/Operador del Banco** (opcional en versiones iniciales): Encargado de registrar bancos válidos o realizar tareas de mantenimiento.
+- **edu.dosw.lab.Reto4.Cliente**: Persona que posee una cuenta bancaria y realiza operaciones (consultar saldo, depositar).
+- **Sistema edu.dosw.lab.Reto4.Bankify**: Aplicación que valida, administra y procesa las operaciones financieras.
+- **Administrador/Operador del edu.dosw.lab.Reto4.Banco** (opcional en versiones iniciales): Encargado de registrar bancos válidos o realizar tareas de mantenimiento.
 
 ## Precondiciones
 - El sistema debe tener configurados los **códigos de bancos válidos**.
