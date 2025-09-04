@@ -59,5 +59,5 @@
   ![alt text](docs/imagenes/contaxto.jpg)
 
 - DIAGRAMA DE CLASES
-  ![alt text](docs/imagenes/clases.jpg)
+  ![Diagrama de clases.png](docs/imagenes/Diagrama%20de%20clases.png)
 
