@@ -2,7 +2,6 @@ package edu.dosw.lab.testing;
 
 
 import static org.junit.jupiter.api.Assertions.*;
-
 import edu.dosw.lab.testing.Reto4.Banco;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

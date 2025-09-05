@@ -93,7 +93,7 @@ public class BankifyTest {
     @Test
     public void testGetCuentasCliente() {
         bankify.crearCuenta(cliente1, cuenta1);
-        bankify.crearCuenta(cliente1, cuenta2); // cuenta2 pertenece a banco2 pero cliente1 puede tenerla
+        bankify.crearCuenta(cliente1, cuenta2);
         var cuentas = bankify.getCuentasCliente(cliente1.getIdCliente());
         assertEquals(2, cuentas.size());
         assertTrue(cuentas.contains(cuenta1));
