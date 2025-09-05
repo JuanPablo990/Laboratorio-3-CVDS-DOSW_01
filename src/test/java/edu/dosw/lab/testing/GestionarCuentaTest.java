@@ -14,7 +14,8 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class GestionarCuentaTest {
+public class
+GestionarCuentaTest {
 
     private GestionarCuenta gestionarCuenta;
     private Cliente cliente;
