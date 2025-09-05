@@ -68,21 +68,37 @@
 
 ## Pruebas Unitarias 
 - Bankify 
+
 ![img_1.png](img_1.png)
+
 - Banco
+
 ![img_2.png](img_2.png)
+
 - Cliente
+
 ![img_3.png](img_3.png)
+
 - Cuenta
+
 ![img_4.png](img_4.png)
-- Gestionar Cuentas 
+
+- Gestionar Cuentas
+
 ![img_5.png](img_5.png)
+
 - Reto 4
+
 ![img_6.png](img_6.png)
+
 - Transacción
+
 ![img_7.png](img_7.png)
+
 - Validar Cuenta
+
 ![img_8.png](img_8.png)
+
 
 ## Principios y Patrones 
 ### Patron Fachada
