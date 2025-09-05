@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 public class BancoTest {
 
     private Banco banco;
+
     @BeforeEach
     public void setUp() {
         banco = new Banco("1", "123", "BancoTest");

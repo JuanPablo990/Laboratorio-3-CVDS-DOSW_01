@@ -61,3 +61,64 @@
 - DIAGRAMA DE CLASES
   ![Diagrama de clases.png](docs/imagenes/Diagrama%20de%20clases.png)
 
+# Reto 3: Tiempo De Desarrollo
+
+## Pruebas Unitarias 
+- Bankify 
+![img_1.png](img_1.png)
+- Banco
+![img_2.png](img_2.png)
+- Cliente
+![img_3.png](img_3.png)
+- Cuenta
+![img_4.png](img_4.png)
+- Gestionar Cuentas 
+![img_5.png](img_5.png)
+- Reto 4
+![img_6.png](img_6.png)
+- Transacción
+![img_7.png](img_7.png)
+- Validar Cuenta
+![img_8.png](img_8.png)
+
+## Principios y Patrones 
+### Patron Fachada
+La clase `Bankify` actúa como una fachada que simplifica la interacción con varias clases y funcionalidades relacionadas con la gestión bancaria (clientes, cuentas, bancos, validaciones, transacciones).
+
+- Oculta la complejidad de `GestionarCuenta`, `ValidarCuenta`, y la gestión de listas internas.
+- Proporciona una interfaz simple para crear cuentas, validar números, consultar saldo, realizar depósitos, etc.
+
+## Principios SOLID
+
+### 1. SRP (Single Responsibility Principle)
+Cada clase tiene una responsabilidad clara:
+
+- `Banco` representa un banco.
+- `Cliente` representa un cliente y sus cuentas.
+- `Cuenta` representa una cuenta bancaria y sus transacciones.
+- `GestionarCuenta` se encarga de operaciones sobre cuentas (crear, depositar, consultar saldo).
+- `ValidarCuenta` se encarga de validar números de cuenta.
+- `Bankify` coordina la interacción entre clientes, bancos, cuentas y validaciones.
+
+Esto facilita mantenimiento y extensión.
+
+### 2. OCP (Open/Closed Principle)
+Las clases están diseñadas para ser extendidas sin modificar el código existente.
+
+- Por ejemplo, `ValidarCuenta` podría extenderse para nuevas reglas de validación.
+
+### 3. Encapsulamiento
+- Los atributos son privados y se accede a ellos mediante getters/setters o métodos específicos.
+- Esto protege el estado interno y permite controlar cómo se modifica.
+
+### 4. Principio de Demeter (Law of Demeter)
+- `Bankify` interactúa con otras clases a través de sus métodos públicos, evitando acceder directamente a atributos internos de otras clases.
+
+---
+
+## Otros Aspectos
+
+- Uso de colecciones para almacenamiento en memoria (listas para clientes, cuentas y bancos).
+- Uso de streams y expresiones lambda para búsquedas y filtrados.
+- Validación y manejo de errores mediante excepciones (`IllegalArgumentException`).
+- Separación clara entre validación y gestión de cuentas.
