@@ -67,35 +67,35 @@
 # Reto 4: Tiempo De Desarrollo
 
 ## Pruebas Unitarias 
-- Bankify 
+- ### Bankify 
 
 ![img_1.png](img_1.png)
 
-- Banco
+- ### Banco
 
 ![img_2.png](img_2.png)
 
-- Cliente
+- ### Cliente
 
 ![img_3.png](img_3.png)
 
-- Cuenta
+- ### Cuenta
 
 ![img_4.png](img_4.png)
 
-- Gestionar Cuentas
+- ### Gestionar Cuentas
 
 ![img_5.png](img_5.png)
 
-- Reto 4
+- ### Reto 4
 
 ![img_6.png](img_6.png)
 
-- Transacción
+- ### Transacción
 
 ![img_7.png](img_7.png)
 
-- Validar Cuenta
+- ### Validar Cuenta
 
 ![img_8.png](img_8.png)
 
