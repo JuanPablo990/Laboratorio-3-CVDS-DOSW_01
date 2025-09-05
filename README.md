@@ -60,8 +60,11 @@
 
 - DIAGRAMA DE CLASES
   ![Diagrama de clases.png](docs/imagenes/Diagrama%20de%20clases.png)
+## Reto 3: Una estimación automatizada 
+### completado 
+![img_13.png](img_13.png)
 
-# Reto 3: Tiempo De Desarrollo
+# Reto 4: Tiempo De Desarrollo
 
 ## Pruebas Unitarias 
 - Bankify 
@@ -122,3 +125,12 @@ Las clases están diseñadas para ser extendidas sin modificar el código existe
 - Uso de streams y expresiones lambda para búsquedas y filtrados.
 - Validación y manejo de errores mediante excepciones (`IllegalArgumentException`).
 - Separación clara entre validación y gestión de cuentas.
+
+## Evidencia de java docs
+### javadoc
+![img_10.png](img_10.png)
+### Compilación
+![img_11.png](img_11.png)
+### Ejecución
+![img_12.png](img_12.png)
+
