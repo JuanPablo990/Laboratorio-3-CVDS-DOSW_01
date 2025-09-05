@@ -12,16 +12,10 @@ import java.util.List;
  * Permite consultar y modificar el saldo, asi como registrar transacciones.
  */
 public class Cuenta {
-    /** Numero unico de la cuenta bancaria */
+
     private String numeroCuenta;
-
-    /** Saldo actual de la cuenta */
     private double saldo;
-
-    /** Banco al que pertenece la cuenta */
     private Banco banco;
-
-    /** Lista de transacciones asociadas a la cuenta */
     private List<Transaccion> transacciones;
 
     /**

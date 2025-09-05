@@ -13,19 +13,11 @@ import java.util.List;
  * administrar las cuentas que le pertenecen.
  */
 public class Cliente {
-    /** Identificador unico del cliente */
+
     private String idCliente;
-
-    /** Nombre del cliente */
     private String nombre;
-
-    /** Documento de identidad del cliente */
     private String documento;
-
-    /** Correo electronico del cliente */
     private String correo;
-
-    /** Lista de cuentas asociadas al cliente */
     private List<Cuenta> cuentas;
 
     /**

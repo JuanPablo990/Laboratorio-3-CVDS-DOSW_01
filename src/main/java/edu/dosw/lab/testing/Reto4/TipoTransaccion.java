@@ -15,12 +15,7 @@ package edu.dosw.lab.testing.Reto4;
  * para definir la naturaleza de cada movimiento bancario.
  */
 public enum TipoTransaccion {
-    /** Representa un depósito de dinero en la cuenta. */
     DEPOSITO,
-
-    /** Representa un retiro de dinero de la cuenta. */
     RETIRO,
-
-    /** Representa una transferencia de dinero entre cuentas. */
     TRANSFERENCIA
 }

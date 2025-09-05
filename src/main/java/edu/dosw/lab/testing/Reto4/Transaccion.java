@@ -18,16 +18,10 @@ import java.util.Date;
  * retiros y transferencias.
  */
 public class Transaccion {
-    /** Identificador único de la transacción. */
+
     private String idTransaccion;
-
-    /** Tipo de transacción (depósito, retiro o transferencia). */
     private TipoTransaccion tipo;
-
-    /** Monto de dinero involucrado en la transacción. */
     private double monto;
-
-    /** Fecha en que se registró la transacción. */
     private Date fecha;
 
     /**

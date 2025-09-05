@@ -14,19 +14,11 @@ import java.util.List;
  * las validaciones de {@link ValidarCuenta}, y las entidades {@link Cliente}, {@link Cuenta}, {@link Banco}.
  */
 public class Bankify {
-    /** Servicio para operaciones sobre cuentas */
+
     private GestionarCuenta gestionarCuenta;
-
-    /** Servicio para validaciones de numeros de cuenta */
     private ValidarCuenta validarCuenta;
-
-    /** Lista de clientes registrados en el sistema */
     private List<Cliente> clientes;
-
-    /** Lista de cuentas registradas en el sistema */
     private List<Cuenta> cuentas;
-
-    /** Lista de bancos registrados en el sistema */
     private List<Banco> bancos;
 
     /**

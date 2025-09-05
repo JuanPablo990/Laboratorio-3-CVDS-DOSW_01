@@ -10,13 +10,8 @@ package edu.dosw.lab.testing.Reto4;
  * proporciona acceso a sus atributos.
  */
 public class Banco {
-    /** Identificador unico del banco */
     private String idBanco;
-
-    /** Codigo del banco usado como prefijo en las cuentas */
     private String codigoBanco;
-
-    /** Nombre del banco */
     private String nombreBanco;
 
     /**

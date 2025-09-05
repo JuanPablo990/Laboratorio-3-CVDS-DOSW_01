@@ -19,20 +19,7 @@ package edu.dosw.lab.testing.Reto4;
  */
 public class Reto4 {
 
-    /**
-     * Método que ejecuta una simulación del sistema Bankify.
-     *
-     * Realiza los siguientes pasos:
-     *
-     *     Registra bancos y clientes
-     *     Crea cuentas válidas e inválidas
-     *     Valida la existencia y formato de cuentas
-     *     Consulta los saldos de las cuentas creadas
-     *     Realiza depósitos válidos e inválidos
-     *     Muestra las cuentas asociadas a cada cliente
-     *     Ejecuta pruebas de manejo de errores
-     *
-     */
+
     public static void ejecutar() {
         Bankify bankify = new Bankify();
 
