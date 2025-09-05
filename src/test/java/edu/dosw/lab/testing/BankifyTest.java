@@ -80,7 +80,7 @@ public class BankifyTest {
         Exception ex = assertThrows(IllegalArgumentException.class, () -> {
             bankify.realizarDeposito(cuenta1.getNumeroCuenta(), -100.0);
         });
-        assertEquals("Monto de depósito debe ser positivo", ex.getMessage());
+        assertEquals("Monto de deposito debe ser positivo", ex.getMessage());
     }
 
     @Test

@@ -150,3 +150,13 @@ Las clases están diseñadas para ser extendidas sin modificar el código existe
 ### Ejecución
 ![img_12.png](img_12.png)
 
+## Reto 5: Corran ahí viene El JaCOCO
+
+- ### Compilación de JaCOCO
+
+![img_14.png](img_14.png)
+
+- ### Porcentaje 
+Ese reporte de JaCoCo muestra el porcentaje de cobertura de pruebas del proyecto laboratorio-3. 
+Se evidencia una cobertura global del 40% en instrucciones y 53% en ramas, destacando que el paquete edu.dosw.lab.testing.Reto4 alcanza un 68% de cobergit tura en instrucciones y 88% en ramas, mientras que edu.dosw.lab.agilismo.Reto3 y edu.dosw.lab presentan 0% de cobertura.
+![img_15.png](img_15.png)
