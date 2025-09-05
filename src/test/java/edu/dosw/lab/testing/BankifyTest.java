@@ -109,4 +109,29 @@ public class BankifyTest {
         assertNotNull(b);
         assertEquals("Banco Nacional", b.getNombreBanco());
     }
+
+    @Test
+    public void testCrearCuenta_ClienteNull() {
+        Exception ex = assertThrows(NullPointerException.class, () -> {
+            bankify.crearCuenta(null, cuenta1);
+        });
+    }
+    @Test
+    public void testCrearCuenta_CuentaNull() {
+        Exception ex = assertThrows(NullPointerException.class, () -> {
+            bankify.crearCuenta(cliente1, null);
+        });
+    }
+    @Test
+    public void testCrearCuenta_NumeroCuentaNull() {
+        Cuenta cuentaNullNum = new Cuenta(null, banco1);
+        bankify.crearCuenta(cliente1, cuentaNullNum);
+        assertFalse(bankify.cuentaExiste(null));
+    }
+    @Test
+    public void testCrearCuenta_BancoNull() {
+        Cuenta cuentaBancoNull = new Cuenta("0011234567", null);
+        bankify.crearCuenta(cliente1, cuentaBancoNull);
+        assertFalse(bankify.cuentaExiste(cuentaBancoNull.getNumeroCuenta()));
+    }
 }
