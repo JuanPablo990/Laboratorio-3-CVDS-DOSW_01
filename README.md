@@ -160,3 +160,48 @@ Las clases están diseñadas para ser extendidas sin modificar el código existe
 Ese reporte de JaCoCo muestra el porcentaje de cobertura de pruebas del proyecto laboratorio-3. 
 Se evidencia una cobertura global del 40% en instrucciones y 53% en ramas, destacando que el paquete edu.dosw.lab.testing.Reto4 alcanza un 68% de cobergit tura en instrucciones y 88% en ramas, mientras que edu.dosw.lab.agilismo.Reto3 y edu.dosw.lab presentan 0% de cobertura.
 ![img_15.png](img_15.png)
+
+## Reto 6: SonarQube
+
+- ### Compilación de JaCOCO
+
+Primero se instalo correctamente el docker
+![img_17.png](img_17.png)
+
+Luego se hizo el primer paso que era usar el comando "docker pull sonarqube"
+![img_18.png](img_18.png)
+
+Arrancamos el servicio de SonarQube con el siguiente comando:
+docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:latest**
+
+y lo probamos con el comando docker ps -a
+![img_23.png](img_23.png)
+
+Luego hicimos todo lo necesario en la pagina, y cambiamos el POM.xml para que pudiera funcionar con sonarqube.
+
+Este fue el reporte de JACOCO que nos genero:
+![img_24.png](img_24.png)
+
+Generamos la integración con sonar con el comando: mvn verify sonar:sonar -D sonar.token=[TOKEN_GENERADO] 
+
+![img_25.png](img_25.png)
+
+Por ultimo adjuntamos el reporte de sonarqube que nos dio.
+![img_26.png](img_26.png)
+
+## REFLEXIONES DE CADA UNO DE LOS INTEGRANTES
+
+### Sebastian Albarracin Silva
+## Reto 6 – SonarQube
+
+### Reflexiones de los integrantes
+
+#### Sebastian
+> Considero que las pruebas de software son fundamentales porque nos permiten garantizar que lo que desarrollamos cumple realmente con los requerimientos y funciona como se espera. En mi experiencia, probar me ayuda a encontrar errores temprano, lo cual ahorra tiempo y costos en comparación con detectarlos en etapas más avanzadas. Además, me da más confianza en la calidad del producto que estoy entregando.
+
+#### Raquel
+> Para mí, las pruebas son importantes porque no solo validan el funcionamiento correcto del software, sino que también sirven como una forma de documentar el comportamiento esperado del sistema. Gracias a ellas se pueden prevenir fallos en producción que podrían afectar a los usuarios y a la reputación de la empresa. En otras palabras, son una herramienta que aporta seguridad y confianza en cada entrega que hacemos.
+
+#### Juan
+> Yo pienso que realizar pruebas es esencial porque el software nunca es perfecto desde el primer intento. Las pruebas permiten descubrir vulnerabilidades, mejorar el rendimiento y asegurar que el sistema sea mantenible a largo plazo. Además, al aplicar pruebas de manera constante, se fomenta una cultura de calidad en el equipo, lo que repercute directamente en la satisfacción del cliente y en la evolución del producto.
+
